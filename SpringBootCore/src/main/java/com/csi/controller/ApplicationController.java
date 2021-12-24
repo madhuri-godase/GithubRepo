@@ -15,9 +15,9 @@ public class ApplicationController {
         return "WELCOME TO CSI PUNE";
     }
 
-    @GetMapping("/address")
+    @GetMapping("/service")
     public String address()
     {
-        return "INSPIRA MALL | PUNE | MH";
+        return "ELPRO MALL | PUNE | MH";
     }
 }
